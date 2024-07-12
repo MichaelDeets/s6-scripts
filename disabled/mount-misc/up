@@ -1,0 +1,3 @@
+#!/bin/execlineb -P
+if -n { ln -snf /proc/self/fd /dev/fd }
+if -n { ln -snf /proc/kcore /dev/core }
