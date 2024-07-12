@@ -1,0 +1,3 @@
+#!/bin/execlineb -P
+if { /bin/bash /etc/local.d/xdg.start }
+if { /bin/bash /etc/local.d/sysctl.start }

@@ -1,0 +1,4 @@
+#!/bin/execlineb -P
+if { /sbin/zramctl -a zstd --size 16G /dev/zram0 }
+if { /sbin/mkswap /dev/zram0 }
+/sbin/swapon /dev/zram0

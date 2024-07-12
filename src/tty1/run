@@ -1,0 +1,3 @@
+#!/bin/execlineb -P
+/sbin/agetty --noclear tty1 38400 linux
+
