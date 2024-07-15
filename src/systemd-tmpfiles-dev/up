@@ -1,0 +1,2 @@
+#!/bin/execlineb -P
+/bin/systemd-tmpfiles --prefix=/dev --create --boot
