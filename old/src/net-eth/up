@@ -1,0 +1,2 @@
+#!/bin/execlineb -P
+/usr/bin/busybox udhcpc -t 120 -b -q -i eth0

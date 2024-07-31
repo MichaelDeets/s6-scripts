@@ -1,0 +1,2 @@
+#!/bin/execlineb -P
+/bin/mount -o remount,rw /

@@ -1,0 +1,2 @@
+#!/bin/execlineb -P
+if { /bin/bash /etc/local.d/dmesg.stop }

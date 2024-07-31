@@ -1,0 +1,3 @@
+#!/bin/execlineb -P
+
+s6-linux-init-shutdownd -d3 -c "/etc/s6-linux-init/current" -g 3000

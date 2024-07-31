@@ -1,0 +1,2 @@
+#!/bin/execlineb -P
+/usr/bin/ntpdate -b -u 0.gentoo.pool.ntp.org
