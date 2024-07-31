@@ -1,4 +1,0 @@
-#!/bin/execlineb -P
-if { /bin/udevadm trigger --action=add --type=subsystems }
-if { /bin/udevadm trigger --action=add --type=devices }
-/bin/udevadm settle

@@ -1,3 +1,0 @@
-#!/bin/execlineb -P
-if -n { mountpoint -q /sys/firmware/efi/efivars }
-mount -o nosuid,noexec,nodev -t efivars efivars /sys/firmware/efi/efivars

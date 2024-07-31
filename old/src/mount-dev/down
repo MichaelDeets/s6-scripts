@@ -1,3 +1,0 @@
-#!/bin/execlineb -P
-if { /bin/umount -l /dev/pts }
-if { /bin/umount -l /dev/shm }

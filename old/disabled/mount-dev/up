@@ -1,3 +1,0 @@
-#!/bin/execlineb -P
-if -n { mountpoint -q /dev }
-s6-mount -o nosuid -t devtmpfs dev /dev

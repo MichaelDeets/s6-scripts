@@ -1,2 +1,0 @@
-#!/bin/execlineb -P
-/bin/systemd-tmpfiles --create --remove --boot --exclude-prefix=/dev

@@ -1,2 +1,0 @@
-#!/bin/execlineb -P
-/usr/bin/taskset -c 0,8 exec /usr/bin/busybox mdev -fsv

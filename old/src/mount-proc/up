@@ -1,3 +1,0 @@
-#!/bin/execlineb -P
-if -n { mountpoint -q /proc }
-/bin/s6-mount -o nosuid,noexec,nodev -t proc proc /proc

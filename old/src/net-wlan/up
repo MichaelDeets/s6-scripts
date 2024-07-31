@@ -1,2 +1,0 @@
-#!/bin/execlineb -P
-/usr/bin/busybox udhcpc -t 120 -b -q -i wlan0

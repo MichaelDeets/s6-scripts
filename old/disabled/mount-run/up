@@ -1,3 +1,0 @@
-#!/bin/execlineb -P
-if -n { mountpoint -q /run }
-mount -o nosuid,nodev -t tmpfs run /run
