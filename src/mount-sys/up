@@ -4,4 +4,5 @@ if { /bin/s6-mount -o nosuid,noexec,nodev -t sysfs sys /sys }
 if { /bin/s6-mount -t debugfs none /sys/kernel/debug }
 if { /bin/s6-mount -t efivarfs efivarfs /sys/firmware/efi/efivars }
 if { /bin/s6-mount -t cgroup2 none /sys/fs/cgroup/ }
+if { /bin/s6-mount -t bpf bpffs /sys/fs/bpf/ }
 #if { mount -t cgroup -o all cgroup /sys/fs/cgroup }
