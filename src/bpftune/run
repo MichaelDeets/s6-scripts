@@ -1,2 +1,2 @@
 #!/bin/execlineb -P
-/usr/bin/bpftune -l /usr/lib64
+/usr/bin/bpftune -s -l /usr/lib64
