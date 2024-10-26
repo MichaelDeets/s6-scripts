@@ -1,0 +1,4 @@
+#!/bin/execlineb -P
+foreground { /usr/bin/libvirtd }
+foreground { /usr/bin/virtqemud }
+/usr/bin/virtlogd
