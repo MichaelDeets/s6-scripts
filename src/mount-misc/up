@@ -1,4 +1,5 @@
 #!/bin/execlineb -P
+if { rm -rf /tmp }
 if { ln -sf "/usr/share/zoneinfo/Europe/London" /etc/localtime }
 if { ln -snf /proc/self/fd /dev/fd }
 if { ln -snf /proc/kcore /dev/core }

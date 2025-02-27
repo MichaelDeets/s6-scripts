@@ -1,2 +1,2 @@
 #!/bin/execlineb -P
-exec /usr/bin/scx_lavd --performance --no-core-compaction
+/usr/bin/scx_lavd --performance --no-core-compaction
