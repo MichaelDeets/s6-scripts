@@ -1,0 +1,4 @@
+#!/bin/execlineb -P
+if -n { mountpoint -q /sys/fs/cgroup }
+if { /bin/s6-mount -t cgroup2 none /sys/fs/cgroup/ }
+if { /bin/bash -c "/usr/bin/echo '+cpuset +cpu +io +memory +pids +rdma +hugetlb +misc +dmem' > /sys/fs/cgroup/cgroup.subtree_control" }
