@@ -1,0 +1,2 @@
+#!/bin/execlineb -P
+/usr/bin/seatd -u michael -g michael

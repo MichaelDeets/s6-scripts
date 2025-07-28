@@ -1,0 +1,4 @@
+#!/bin/execlineb -P
+/bin/bash /usr/local/bin/eth0-stop
+if { ip -4 addr flush dev eth0 }
+ip -6 addr flush dev eth0
