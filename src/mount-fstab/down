@@ -1,2 +1,3 @@
 #!/bin/execlineb -P
-/bin/umount -al
+foreground { /bin/sync }
+/bin/umount -ar
